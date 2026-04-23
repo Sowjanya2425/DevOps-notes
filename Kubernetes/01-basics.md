@@ -1,6 +1,7 @@
 Kubernetes is an open‑source container orchestration platform used to deploy, scale, manage, and heal containerized applications automatically.
 
 > Why Kubernetes is Needed
+
 Before K8s:
 Applications ran on single servers
 Manual deployment
