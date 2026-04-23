@@ -143,13 +143,14 @@ Service discovery
 Step‑by‑Step Example:
 > 
 User runs:
-Shellkubectl apply -f deployment.yamlShow more lines
-Request goes to API Server
-API Server stores data in etcd
-Scheduler selects suitable worker node
-Controller Manager ensures desired replicas
+Shellkubectl apply -f deployment.yaml
+Request goes to API Server--
+API Server stores data in etcd--
+Scheduler selects suitable worker node--
+Controller Manager ensures desired replicas--
+
 kubelet on worker node:
-Pulls image
-Creates Pod
-Container runtime starts containers
+Pulls image--
+Creates Pod--
+Container runtime starts containers--
 kube-proxy enables networking
